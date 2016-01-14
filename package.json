@@ -1,0 +1,23 @@
+{
+  "name": "stringify",
+  "version": "0.0.1",
+  "description": "Picks xlsx file and generates string-files for droid.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben John",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "mkdirp": "^0.5.1",
+    "xlsx": "^0.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/benjohnde/stringify.git"
+  },
+  "bin": {
+    "stringify": "./lib/index.js"
+  }
+}
